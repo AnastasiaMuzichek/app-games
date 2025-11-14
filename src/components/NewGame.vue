@@ -1,14 +1,6 @@
 <script setup lang="ts">
 import { useRouter } from 'vue-router';
-import {
-    Flex,
-    Input,
-    Form,
-    FormItem,
-    DatePicker,
-    Select,
-    SelectOption,
-} from 'ant-design-vue';
+import { Input, Form, FormItem, DatePicker, Select } from 'ant-design-vue';
 import type { SelectProps } from 'ant-design-vue';
 import { computed, ref } from 'vue';
 import { genres } from '../constants';
